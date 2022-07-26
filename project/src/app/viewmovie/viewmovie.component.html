@@ -1,0 +1,56 @@
+<div class="tong">
+    <div class="video">
+        <iframe *ngIf="phim!=null" src="/assets/videoplayback.mp4">
+        </iframe>
+
+    </div>
+
+    <div *ngIf="phim" class="name-video">{{phim.name}}</div>
+    <div class="comment">
+        <div class="main-cm">
+            <div class="avatar"><img src="/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg"
+                    alt=""></div>
+            <mat-form-field class="cm" appearance="outline">
+                <mat-label>Comment</mat-label>
+                <input style="color: black;" matInput [formControl]="comment" placeholder="Comment" required>
+
+            </mat-form-field>
+            <button class="button-post" (click)="postcomment()" [disabled]="!comment.valid">POST </button>
+        </div>
+        <mat-card *ngFor="let item of viewcomment" class="user-cm">
+
+            <div class="avatar"><img src="/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg"
+                    alt=""></div>
+
+            <div class="content-all  cm">
+                <div style="border-radius:3px; background-color: rgba(0, 0, 0, 0.137); ">
+                    <div style="color: black;" class="name-usercm">{{item.name}}</div>
+                    <div class="content-comment" style="color: black;">{{item.content}}</div>
+                </div>
+                <div class="like-share"><span (click)="clickreply(item.id)">Reply&ensp;</span>|&nbsp;<span
+                        (click)="deletecomment(item.id)">delete</span>&nbsp;&nbsp;&nbsp;<span>1m</span></div>
+                <div *ngIf="hide && idreply==item.id" class="replycomment">
+
+                    <input #box style="color: black;" type="text" value="" required>
+
+
+                    <button class="button-reply" (click)="postreply(box.value)">POST </button>
+                    <button class="button-reply" (click)="hide=!hide">HỦY </button>
+
+                </div>
+                <div  *ngFor="let item1 of reply"  class="tong-reply">
+                    <div *ngIf="item1.replyId==item.id">
+                    <div class="avatar-reply"><img src="/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg" alt=""></div>
+          <div class="content-reply">
+         <div style="background-color:rgba(0, 0, 0, 0.137) ;">  <div class="name-reply">{{item1.taikhoan}}</div>
+            <div class="content-rep">{{item1.content}}</div></div> 
+            <div class="action-rep" (click)="deletecommentreply(item1.id)">delete</div>
+          </div>
+                </div>
+            </div>
+            </div>
+        </mat-card>
+
+    </div>
+</div>
+

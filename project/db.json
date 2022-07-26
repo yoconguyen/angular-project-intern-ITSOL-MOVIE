@@ -1,0 +1,285 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "taikhoan": "hoang10x771@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 2,
+      "taikhoan": "hoang10x772@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 3,
+      "taikhoan": "hoang10x773@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 4,
+      "taikhoan": "hoang10x774@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 5,
+      "taikhoan": "hoang10x775@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 6,
+      "taikhoan": "huy10x77@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "taikhoan": "gfgbf@gmail.com",
+      "matkhau": "123456",
+      "id": 7
+    },
+    {
+      "taikhoan": "hoang10x7713@gmail.com",
+      "matkhau": "123456",
+      "id": 8
+    },
+    {
+      "taikhoan": "gfgbf@reg",
+      "matkhau": "123456",
+      "id": 9
+    },
+    {
+      "taikhoan": "gfgbf@reg11",
+      "matkhau": "123456",
+      "id": 10
+    },
+    {
+      "taikhoan": "gfgbf111@reg11",
+      "matkhau": "123456",
+      "id": 11
+    }
+  ],
+  "movie": [
+    {
+      "img": "/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "name": "phu thuy toi thuong123",
+      "nameen": "Doctor strange in the movie",
+      "phim": "lẻ",
+      "quocgia": "Việt Nam",
+      "theloai": "Hành Động",
+      "video": "/assets/videoplayback.mp4",
+      "year": 2000,
+      "id": 1
+    },
+    {
+      "img": "/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg",
+      "name": "ok day1",
+      "nameen": "Doctor strange in the movie",
+      "phim": "lẻ",
+      "quocgia": "Việt Nam",
+      "theloai": "Viễn Tưởng",
+      "video": "/assets/videoplayback.mp4",
+      "year": 2001,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Tôi là con Dế",
+      "img": "/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "nameen": "Doctor strange in the movie",
+      "video": "/assets/videoplayback.mp4",
+      "quocgia": "Nhật Bản",
+      "theloai": "Kiếm Hiệp",
+      "year": 2002,
+      "phim": "lẻ"
+    },
+    {
+      "id": 4,
+      "name": "Éch ngồi đáy giếng",
+      "img": "/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg",
+      "nameen": "Doctor strange in the movie",
+      "video": "/assets/videoplayback.mp4",
+      "quocgia": "Việt Nam",
+      "theloai": "Hoạt Hình",
+      "year": 2003,
+      "phim": "bộ"
+    },
+    {
+      "id": 5,
+      "name": "Tôi là con cóc",
+      "img": "/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "nameen": "Doctor strange in the movie",
+      "video": "/assets/videoplayback.mp4",
+      "quocgia": "Nhật Bản",
+      "theloai": "Hành Động",
+      "year": 2004,
+      "phim": "bộ"
+    },
+    {
+      "id": 6,
+      "name": "Cuộc sống muôn màu",
+      "img": "/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "nameen": "Doctor strange in the movie",
+      "video": "/assets/videoplayback.mp4",
+      "quocgia": "Trung Quốc",
+      "theloai": "Hành Động",
+      "year": 2005,
+      "phim": "bộ"
+    },
+    {
+      "id": 7,
+      "name": "Phù thủy tối thượng",
+      "img": "/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg",
+      "nameen": "Doctor strange in the movie",
+      "video": "/assets/videoplayback.mp4",
+      "quocgia": "Hàn Quốc",
+      "theloai": "Kinh Dị",
+      "year": 2006,
+      "phim": "lẻ"
+    },
+    {
+      "id": 8,
+      "name": "Phù thủy tối thượng",
+      "img": "/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg",
+      "nameen": "Doctor strange in the movie",
+      "video": "/assets/videoplayback.mp4",
+      "quocgia": "Mỹ",
+      "theloai": "Kinh Dị",
+      "year": 2007,
+      "phim": "lẻ"
+    }
+  ],
+  "comment": [
+    {
+      "id": 3,
+      "name": "nana",
+      "iphim": 4,
+      "content": "phim hay day",
+      "input": ""
+    },
+    {
+      "name": "hoang10x773@gmail.com",
+      "iphim": 2,
+      "content": "ok",
+      "id": 6,
+      "input": ""
+    },
+    {
+      "name": "hoang10x773@gmail.com",
+      "iphim": 2,
+      "content": "ok duoc",
+      "id": 7,
+      "input": ""
+    },
+    {
+      "name": "hoang10x771@gmail.com",
+      "iphim": 1,
+      "content": "grgwrgwefwf",
+      "id": 13,
+      "input": ""
+    },
+    {
+      "name": "hoang10x775@gmail.com",
+      "iphim": 3,
+      "content": "wefwg",
+      "id": 16,
+      "input": ""
+    },
+    {
+      "name": "hoang10x775@gmail.com",
+      "iphim": 3,
+      "content": "ede",
+      "id": 17,
+      "input": ""
+    },
+    {
+      "name": "hoang10x775@gmail.com",
+      "iphim": 5,
+      "content": "dsgsrgrg",
+      "input": "",
+      "id": 21
+    },
+    {
+      "name": "hoang10x775@gmail.com",
+      "iphim": 5,
+      "content": "dqwd",
+      "input": "",
+      "id": 22
+    },
+    {
+      "name": "hoang10x775@gmail.com",
+      "iphim": 5,
+      "content": "dqd",
+      "input": "",
+      "id": 23
+    },
+    {
+      "name": "hoang10x775@gmail.com",
+      "iphim": 6,
+      "content": "ok",
+      "input": "",
+      "id": 24
+    },
+    {
+      "name": "hoang10x775@gmail.com",
+      "iphim": 2,
+      "content": "ferg",
+      "input": "",
+      "id": 26
+    },
+    {
+      "name": "hoang10x771@gmail.com",
+      "iphim": 1,
+      "content": "aaaaa",
+      "input": "",
+      "id": 27
+    }
+  ],
+  "commentreply": [
+    {
+      "replyId": 21,
+      "content": "dwqad",
+      "taikhoan": "hoang10x775@gmail.com",
+      "id": 1
+    },
+    {
+      "replyId": 21,
+      "content": "dqd",
+      "taikhoan": "hoang10x775@gmail.com",
+      "id": 2
+    },
+    {
+      "replyId": 21,
+      "content": "dqedqed",
+      "taikhoan": "hoang10x775@gmail.com",
+      "id": 3
+    },
+    {
+      "replyId": 6,
+      "content": "iugrieg",
+      "taikhoan": "hoang10x775@gmail.com",
+      "id": 4
+    },
+    {
+      "replyId": 24,
+      "content": "ok",
+      "taikhoan": "hoang10x775@gmail.com",
+      "id": 5
+    },
+    {
+      "replyId": 13,
+      "content": "ok",
+      "taikhoan": "hoang10x775@gmail.com",
+      "id": 6
+    }
+  ],
+  "useradmin": [
+    {
+      "id": 1,
+      "taikhoan": "admin@gmail.com",
+      "matkhau": "admin123"
+    },
+    {
+      "id": 2,
+      "taikhoan": "admin1@gmail.com",
+      "matkhau": "admin1123"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+.tong{
+    background-color: #555458;
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    
+}
+
+.video{
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+.comment{
+    overflow: auto;
+    max-height: 300px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.tong-cm{
+    display: flex;
+    flex-direction: column;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+}
+.main-cm{
+    display: flex;
+    flex-direction: row;
+
+}
+.user-cm{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: black;
+    margin-top: 5px;
+    
+}
+.main-cm mat-form-field{
+    width: 100%;
+    font-size: 13px;
+}
+.cm{
+    margin-left: 20px;
+   
+}
+.cm1{
+    width: 100%;
+    font-size: 9px;
+}
+.content-all{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   justify-content: space-between;
+}
+.name-usercm{
+    font-weight: 500;
+}
+.like-share{
+    color: rgb(0, 26, 255);
+    cursor: pointer;
+}
+.name-video{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size:20px;
+}
+.button-post{
+    position: relative;
+    top:6px;
+ background-color: blue;
+ height: 40px;
+ color: white;
+ border-radius: 5px;
+}
+.replycomment{
+    display: flex;
+    flex-direction: row;
+    
+}
+.button-reply{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+.tong-reply{
+    display: flex;
+    flex-direction: row;
+}
+.avatar-reply{
+    width: 30px;
+    height: 30px;
+}
+.avatar-reply img{
+    width: 100%;
+    height: 100%;
+}
+.content-reply{
+    margin-left: 20px;
+    width: 100%;
+}
+.name-reply{
+    font-weight: 500;
+
+}
+.action-rep{
+    color: blue;
+}
+.action-rep{
+    cursor: pointer;
+}
+/* mobi */
+@media (max-width: 576px){
+    .tong{
+        background-color: #555458;
+        width: 100%;
+        height: auto;
+        padding: 100px 20px 100px 20px;
+        
+    }
+    .video{
+        width: 100%;
+        height: 200px;
+        background-color: antiquewhite;
+    }
+}
+/* ipad */
+@media (min-width: 577px) and (max-width:991px){
+    .tong{
+        background-color: #555458;
+        width: 100%;
+        height: auto;
+        padding: 100px 50px 100px 50px;
+        
+    }
+}
