@@ -1,0 +1,35 @@
+<div id="tong">
+<div *ngIf="checkdangki=='thanhcong'" class="alart">Đăng ký thành công!</div>
+<div *ngIf="checkdangki=='khongthanhcong'" class="alart">Tài khoản đã tồn tại!</div>
+<div *ngIf="checkdangnhap=='sai'" class="alart">Tài khoản or mật khẩu sai!</div>
+
+<div class="logo"><img src="./assets/logo.png" alt=""></div>
+<form class="form" [formGroup]="formgrouplogin" (ngSubmit)="onSubmit()" method="post" accept="#">
+
+
+    <mat-button-toggle-group class="tong-togget" [formControl]="fontStyleControl" name="fontStyle" aria-label="Font Style">
+      <mat-button-toggle (click)="clickdangnhap($event)" class="but-togget" value="dangnhap">Đăng nhập</mat-button-toggle>
+      <mat-button-toggle (click)="clickdangki($event)" class="but-togget" value="dangki">Đăng kí</mat-button-toggle>
+    </mat-button-toggle-group>
+
+    <mat-form-field  class="taikhoan" appearance="outline" [hideRequiredMarker]="formgrouplogin.value">
+        <mat-label >Enter your email</mat-label>
+        <input  matInput  formControlName="taikhoan"  required>
+        <mat-error *ngIf="formgrouplogin.value.taikhoan.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+ 
+  <mat-form-field  class="matkhau" appearance="outline" [hideRequiredMarker]="formgrouplogin.value" >
+    <mat-label >Enter your password</mat-label>
+    <input  matInput  formControlName="matkhau" [type]="hide ? 'password' : 'text'" required>
+    <button class="hide" mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
+    <mat-error *ngIf="formgrouplogin.value.matkhau.invalid">{{getErrorMessage2()}}</mat-error>
+  </mat-form-field>
+  <br>
+  <button (click)="dangnhap()" *ngIf="change=='dangnhap'" type="submit" [disabled]="!formgrouplogin.valid"  class="but-submit" mat-button>Submit</button> 
+  <button (click)="dangki()" *ngIf="change=='dangki'" type="submit" [disabled]="!formgrouplogin.valid"  class="but-submit" mat-button>Đăng kí</button> 
+
+</form>
+
+</div>

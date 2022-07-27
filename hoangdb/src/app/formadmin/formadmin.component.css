@@ -1,0 +1,17 @@
+.tong{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    padding: 100px;
+}
+.tong form{
+    width: 600px;
+    margin: auto;
+}
+form mat-form-field{
+width: 50%;
+}
+.but{
+    width: 50%;
+    background-color: rgb(12, 167, 12);
+}

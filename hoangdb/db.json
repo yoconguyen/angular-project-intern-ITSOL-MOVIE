@@ -1,0 +1,141 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "taikhoan": "hoang10x771@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 2,
+      "taikhoan": "hoang10x772@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 3,
+      "taikhoan": "hoang10x773@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 4,
+      "taikhoan": "hoang10x774@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 5,
+      "taikhoan": "hoang10x775@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "id": 6,
+      "taikhoan": "huy10x77@gmail.com",
+      "matkhau": "123456"
+    },
+    {
+      "taikhoan": "gfgbf@gmail.com",
+      "matkhau": "123456",
+      "id": 7
+    },
+    {
+      "taikhoan": "hoang10x7713@gmail.com",
+      "matkhau": "123456",
+      "id": 8
+    },
+    {
+      "taikhoan": "gfgbf@reg",
+      "matkhau": "123456",
+      "id": 9
+    },
+    {
+      "taikhoan": "gfgbf@reg11",
+      "matkhau": "123456",
+      "id": 10
+    },
+    {
+      "taikhoan": "gfgbf111@reg11",
+      "matkhau": "123456",
+      "id": 11
+    }
+  ],
+  "movie":[
+    {
+      "name":"Phù thủy tối thượng",
+      "img":"/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "nameen":"Doctor strange in the movie",
+      "video":"https://www.youtube.com/embed/tgbNymZ7vqY",
+      "quocgia":"Việt Nam",
+      "theloai":"Hành Động",
+      "year":2000,
+      "phim":"lẻ"
+    },
+    {
+      "name":"KungFu PanDa",
+      "img":"/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg",
+      "nameen":"Doctor strange in the movie",
+      "video":"https://www.youtube.com/embed/tgbNymZ7vqY",
+      "quocgia":"Việt Nam",
+      "theloai":"Viễn Tưởng",
+      "year":2001,
+      "phim":"lẻ"
+    },
+    {
+      "name":"Tôi là con Dế",
+      "img":"/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "nameen":"Doctor strange in the movie",
+      "video":"https://www.youtube.com/embed/tgbNymZ7vqY",
+      "quocgia":"Nhật Bản",
+      "theloai":"Kiếm Hiệp",
+      "year":2002,
+      "phim":"lẻ"
+    },
+    {
+      "name":"Éch ngồi đáy giếng",
+      "img":"/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "nameen":"Doctor strange in the movie",
+      "video":"https://www.youtube.com/embed/tgbNymZ7vqY",
+      "quocgia":"Việt Nam",
+      "theloai":"Hoạt Hình",
+      "year":2003,
+      "phim":"bộ"
+    },
+    {
+      "name":"Tôi là con cóc",
+      "img":"/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "nameen":"Doctor strange in the movie",
+      "video":"https://www.youtube.com/embed/tgbNymZ7vqY",
+      "quocgia":"Nhật Bản",
+      "theloai":"Hành Động",
+      "year":2004,
+      "phim":"bộ"
+    },
+    {
+      "name":"Cuộc sống muôn màu",
+      "img":"/assets/phu-thuy-toi-thuong-trong-da-vu-tru-hon-loan-73836-thumbnail.jpg",
+      "nameen":"Doctor strange in the movie",
+      "video":"https://www.youtube.com/embed/tgbNymZ7vqY",
+      "quocgia":"Trung Quốc",
+      "theloai":"Hành Động",
+      "year":2005,
+      "phim":"bộ"
+    },
+    {
+      "name":"Phù thủy tối thượng",
+      "img":"/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg",
+      "nameen":"Doctor strange in the movie",
+      "video":"https://www.youtube.com/embed/tgbNymZ7vqY",
+      "quocgia":"Hàn Quốc",
+      "theloai":"Kinh Dị",
+      "year":2006,
+      "phim":"lẻ"
+    },
+    {
+      "name":"Phù thủy tối thượng",
+      "img":"/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg",
+      "nameen":"Doctor strange in the movie",
+      "video":"https://www.youtube.com/embed/tgbNymZ7vqY",
+      "quocgia":"Mỹ",
+      "theloai":"Kinh Dị",
+      "year":2007,
+      "phim":"lẻ"
+    }
+  ]
+}

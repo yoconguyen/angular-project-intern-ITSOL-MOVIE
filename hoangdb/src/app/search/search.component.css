@@ -1,0 +1,181 @@
+
+.tong{
+    width: calc(100vw - 200px);
+    margin: auto;
+    padding-bottom: 100px;
+}
+.tong-movi{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.phim-moi{
+    display: flex;
+    flex-direction: column;
+}
+.phim-moi-title{
+    border-bottom:1px solid wheat ;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size:25px;
+    color: rgb(226, 205, 12);
+}
+.col1{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.col1 .img-movi{
+    width: 100%;
+    height: 75%;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+
+}
+.img-movi img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.col1 .text-movi{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(28 28 28);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    padding-left: 10px;
+}
+.name-movie{
+    margin-top: 10px;
+ color: rgb(26, 190, 240) ;
+ 
+    overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 1;
+     -webkit-box-orient: vertical;
+   font-weight: 600;
+
+}
+.name-movie-en{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: white;
+}
+.tong-sap-chieu{
+    display: flex;
+    flex-direction: column;
+}
+.header-tong-sap-chieu-title{
+    margin-top: 50px;
+    border-bottom:1px solid wheat ;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size:25px;
+    color: rgb(226, 205, 12);
+
+}
+.header-tong-sap-chieu{
+    position: relative;
+
+ height: 200px;
+ width: 100%;
+ background-color: aquamarine;
+}
+.header-tong-sap-chieu img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.name-sap-chieu{
+    position: absolute;
+    font-size: large;
+    top: 100px;
+    left: 10px;
+}
+.name-sap-chieu-en{
+    position: absolute;
+    top:130px;
+    left: 10px;
+font-weight: 600;
+
+}
+.rating{
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    bottom: 10px;
+    left: 10px;
+font-weight: 600;
+
+}
+.rating img{
+    width: 100%;
+    height: 100%;
+}
+.view{
+    position: absolute;
+bottom: 10px;
+right: 10px;
+font-weight: 600;
+color: blue;
+}
+.content-trailer{
+ display: flex;
+ flex-direction: row;  
+ padding: 10px;
+ box-sizing: border-box;
+ background-color: rgb(28 28 28); 
+ width: 100%;
+ height: 140px;
+}
+.content-trailer .img-trailer{
+ width: 25%;
+ height: 90px;
+
+}
+.content-trailer .img-trailer img{
+    width: 100%;
+    height: 100%;
+}
+.content-chilren-trailer{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+.name-trailer{
+    font-weight: 600;
+}
+.name-trailer-en{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.view-trailer{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.rating-trailer{
+    margin-top: 10px;
+    height: 20px;
+    width: 100px;
+}
+.rating-trailer img{
+    width: 100%;
+    height: 100%;
+}

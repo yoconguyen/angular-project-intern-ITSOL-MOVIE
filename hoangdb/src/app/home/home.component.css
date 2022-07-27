@@ -1,0 +1,163 @@
+body{
+    color: white;
+}
+mat-sidenav-container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: black; */
+    background-color: #555458;
+  color: white;
+}
+mat-sidenav-content{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(184, 131, 66);
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+.logo{
+    width: 200px;
+    height: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+.button1{
+        width: 100px ;
+}
+.button1:hover{
+    background-color: rgba(135, 231, 8, 0.74);
+}
+.ac{
+    border-bottom: 4px solid yellowgreen;
+}
+.search mat-icon{
+ position: relative;
+ top: 7px
+}
+.main{
+    margin-top:60px ;
+    width: 100vw;
+  
+}
+.menu-quocgia{
+  position: absolute;
+
+    width: 200px;
+    height: 110px;
+    background-color:rgb(28 28 28);
+    display: none;
+}
+.quocgia:hover{
+    background-color: #555458;
+    border-radius:0px ;
+}
+.quocgia:hover .menu-quocgia{
+display: block;
+
+}
+.quocgia button:hover{
+    background-color: #555458;
+border-radius: 0px;
+}
+.menu-quocgia button{
+    width: 100px;
+}
+.menu-theloai{
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    background-color: rgb(28 28 28);
+    display: none;
+}
+.theloai:hover .menu-theloai{
+    display: block;
+}
+.theloai button:hover{
+    background-color: #555458;
+    border-radius: 0px;
+}
+.theloai button{
+    width: 100px;
+}
+.menu-nam{
+position: absolute;
+background-color: rgb(28 28 28);
+
+width: 400px;
+display: none;
+}
+.nam:hover .menu-nam{
+    display: block;
+}
+.menu-nam button:hover{
+    background-color: #555458;
+    border-radius: 0px;
+}
+.menu-nam button{
+    width: 100px;
+}
+.account{
+    position: absolute;
+    background-color:rgb(28 28 28);
+    width: 140px;
+    display: none;
+}
+.taikhoan:hover .account{
+display: block;
+}
+.account button:hover{
+    background-color: #555458;
+    
+}
+.account button{
+    width: 140px;
+}
+.hello-img {
+ 
+        position:fixed;
+        width: 0;
+        height:0;
+        animation-name: example;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;        
+    
+}
+.hello-img img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes example {
+    from {
+        margin: 0;
+}
+    to {
+        margin-left: calc(50vw - 200px);
+        margin-top: calc(50vh - 200px);
+        width: 400px;
+ height: 400px;
+      z-index: 100;  
+    }
+  }
+  .none{display: none;}

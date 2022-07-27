@@ -1,0 +1,175 @@
+<div class="tong">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-md-8 p-12">
+                <div class="tong-movi">
+                    <div class="phim-moi">
+                        <div class="phim-moi-title">PHIM MỚI</div>
+                        <div class="phim-moi-menu">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div *ngFor="let item of apimovie " class="col1 col-md-3 p-1">
+                                        <div class="img-movi"><img
+                                                src="{{item.img}}">
+                                        </div>
+                                        <div class="text-movi">
+                                            <span class="name-movie">{{item.name}}</span>
+                                            <span class="name-movie-en">{{item.nameen}}</span>
+
+                                        </div>
+
+                                    </div>
+                         
+                            
+                              
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!--  -->
+                <div class="tong-movi">
+                    <div class="phim-moi">
+                        <div class="phim-moi-title">PHIM LẺ</div>
+                        <div class="phim-moi-menu">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div *ngFor="let item of phimle" class="col1 col-md-3 p-1">
+                                        <div class="img-movi"><img
+                                                src="{{item.img}}">
+                                        </div>
+                                        <div class="text-movi">
+                                            <span class="name-movie">{{item.name}}</span>
+                                            <span class="name-movie-en">{{item.nameen}}</span>
+
+                                        </div>
+
+                                    </div>
+                                  
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="tong-movi">
+                    <div class="phim-moi">
+                        <div class="phim-moi-title">PHIM BỘ</div>
+                        <div class="phim-moi-menu">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div *ngFor="let item of phimbo" class="col1 col-md-3 p-1">
+                                        <div class="img-movi"><img
+                                                src="{{item.img}}">
+                                        </div>
+                                        <div class="text-movi">
+                                            <span class="name-movie">{{item.name}}</span>
+                                            <span class="name-movie-en">{{item.nameen}}</span>
+
+                                        </div>
+
+                                    </div>
+                       
+                             
+                                   
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- trai -->
+            <div class="col col-md-4 p-12">
+
+                <div class="tong-sap-chieu">
+                    <div class="header-tong-sap-chieu-title">SẮP CHIẾU</div>
+                    <div class="header-tong-sap-chieu"> <img
+                            src="/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg" alt="">
+                        <div class="name-sap-chieu">CHĂM ĐAO CA:ĐẤU HÀNH</div>
+                        <div class="name-sap-chieu-en">zhen Dao ge:gen hang</div>
+                        <div class="rating"><img src="/assets/rating.png"></div>
+                        <div class="view">400 VIEW</div>
+
+                    </div>
+                    <div class="content-sap-chieu">
+                        <div class="content-trailer">
+                            <div class="img-trailer"><img src="/assets/trailer.jpg" alt=""></div>
+                            <div class="content-chilren-trailer">
+                                <div class="name-trailer">Ăn cơm đã, yêu để sau</div>
+                                <div class="name-trailer-en">Eat befor loving</div>
+                                <div class="view-trailer">120 view</div>
+                                <div class="rating-trailer"><img src="/assets/rating.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--  -->
+
+                <div class="tong-sap-chieu">
+                    <div class="header-tong-sap-chieu-title">PHIM BỘ SẮP CHIẾU</div>
+                    <div class="header-tong-sap-chieu"> <img
+                            src="/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg" alt="">
+                        <div class="name-sap-chieu">CHĂM ĐAO CA:ĐẤU HÀNH</div>
+                        <div class="name-sap-chieu-en">zhen Dao ge:gen hang</div>
+                        <div class="rating"><img src="/assets/rating.png"></div>
+                        <div class="view">400 VIEW</div>
+
+                    </div>
+                    <div class="content-sap-chieu">
+                        <div class="content-trailer">
+                            <div class="img-trailer"><img src="/assets/trailer.jpg" alt=""></div>
+                            <div class="content-chilren-trailer">
+                                <div class="name-trailer">Ăn cơm đã, yêu để sau</div>
+                                <div class="name-trailer-en">Eat befor loving</div>
+                                <div class="view-trailer">120 view</div>
+                                <div class="rating-trailer"><img src="/assets/rating.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="tong-sap-chieu">
+                    <div class="header-tong-sap-chieu-title">PHIM LẺ SẮP CHIẾU</div>
+                    <div class="header-tong-sap-chieu"> <img
+                            src="/assets/cham-dao-ca-tran-the-hanh-63723-thumbnail-250x350.jpg" alt="">
+                        <div class="name-sap-chieu">CHĂM ĐAO CA:ĐẤU HÀNH</div>
+                        <div class="name-sap-chieu-en">zhen Dao ge:gen hang</div>
+                        <div class="rating"><img src="/assets/rating.png"></div>
+                        <div class="view">400 VIEW</div>
+
+                    </div>
+                    <div class="content-sap-chieu">
+                        <div class="content-trailer">
+                            <div class="img-trailer"><img src="/assets/trailer.jpg" alt=""></div>
+                            <div class="content-chilren-trailer">
+                                <div class="name-trailer">Ăn cơm đã, yêu để sau</div>
+                                <div class="name-trailer-en">Eat befor loving</div>
+                                <div class="view-trailer">120 view</div>
+                                <div class="rating-trailer"><img src="/assets/rating.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<app-footer></app-footer>

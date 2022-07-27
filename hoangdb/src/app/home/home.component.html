@@ -1,0 +1,88 @@
+<mat-sidenav-container>
+    <mat-sidenav-content>
+        <div class="hello-img">
+            <mat-icon style="color: black;" (click)="helloimgclick()">close</mat-icon><img src="/assets/f64f253a1cb2077e796bc30abc13d506.gif"
+                alt="">
+        </div>
+        <header class="header">
+
+            <div class="logo"><img src="/assets/logo_itsol.png" alt=""></div>
+
+            <button class="button1" [routerLink]="['/home/trangchu']" [routerLinkActive]="['ac']" mat-button>Trang
+                chủ</button>
+            <div class="quocgia">
+                <button class="button1" mat-button>Quốc gia<mat-icon>keyboard_arrow_down</mat-icon></button>
+                <div (click)="clickquocgia($event)" class="menu-quocgia">
+                    <button mat-button>Việt Nam</button>
+                    <button mat-button>Hàn Quốc</button>
+                    <button mat-button>Trung Quốc</button>
+                    <button mat-button>Nhật Bản</button>
+                    <button mat-button>Mỹ</button>
+
+                </div>
+            </div>
+            <div class="theloai">
+                <button class="button1" mat-button>Thể loại<mat-icon>keyboard_arrow_down</mat-icon></button>
+                <div class="menu-theloai">
+                    <button mat-button>Hành Động</button>
+                    <button mat-button>Kinh Dị</button>
+                    <button mat-button>Viễn Tưởng</button>
+                    <button mat-button>Kiếm Hiệp</button>
+                    <button mat-button>Hoạt Hình</button>
+                </div>
+            </div>
+            <div class="nam">
+                <button class="button1" mat-button>Năm<mat-icon>keyboard_arrow_down</mat-icon></button>
+                <div class="menu-nam">
+                    <button mat-button>2000</button>
+                    <button mat-button>2001</button>
+                    <button mat-button>2002</button>
+                    <button mat-button>2003</button>
+                    <button mat-button>2004</button>
+                    <button mat-button>2005</button>
+                    <button mat-button>2006</button>
+                    <button mat-button>2007</button>
+                    <button mat-button>2008</button>
+                    <button mat-button>2009</button>
+                    <button mat-button>2010</button>
+                    <button mat-button>2012</button>
+                    <button mat-button>2013</button>
+                    <button mat-button>2014</button>
+                    <button mat-button>2015</button>
+                    <button mat-button>2016</button>
+                    <button mat-button>2017</button>
+                    <button mat-button>2018</button>
+                    <button mat-button>2019</button>
+                    <button mat-button>2020</button>
+                    <button mat-button>2021</button>
+
+
+                </div>
+            </div>
+
+
+            <div class="search">
+                <mat-form-field class="search1" appearance="legacy">
+                    <input matInput placeholder="search...">
+                    <mat-icon matSuffix>search</mat-icon>
+
+                </mat-form-field>
+            </div>
+            <div class="taikhoan"> <button mat-stroked-button>
+                    <mat-icon>people</mat-icon> Tài khoản<mat-icon>keyboard_arrow_down</mat-icon>
+                </button>
+                <div class="account">
+                    <button mat-button> Đăng nhập</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <router-outlet></router-outlet>
+        </div>
+
+        <!--  -->
+
+    </mat-sidenav-content>
+
+</mat-sidenav-container>

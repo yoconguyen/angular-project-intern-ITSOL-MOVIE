@@ -1,0 +1,47 @@
+
+   <div class="tong">
+  <form action="#" [formGroup]="formmovie" >
+    <mat-form-field  appearance="outline">
+        <mat-label>Tên phim</mat-label>
+        <input  matInput formControlName="name"  placeholder="name" >
+      </mat-form-field>
+      <mat-form-field  appearance="outline">
+        <mat-label>Ảnh</mat-label>
+        <input  matInput formControlName="img"  placeholder="nhập ảnh" >
+      </mat-form-field>
+
+      <br>
+
+  <mat-form-field  appearance="outline">
+        <mat-label>Tên phim English</mat-label>
+        <input  matInput formControlName="nameen"  placeholder="Nhập tên tiếng anh" >
+      </mat-form-field>
+      <mat-form-field  appearance="outline">
+        <mat-label>Video</mat-label>
+        <input  matInput formControlName="video"  placeholder="Nhập video" >
+      </mat-form-field>
+<br>
+<mat-form-field  appearance="outline">
+    <mat-label>Nhập Quốc Gia</mat-label>
+    <input  matInput formControlName="quocgia"  placeholder="Nhập quốc gia" >
+  </mat-form-field>
+
+  <mat-form-field  appearance="outline">
+    <mat-label>Nhập thể loại</mat-label>
+    <input  matInput formControlName="theloai"  placeholder="Nhập thể loại" >
+  </mat-form-field>
+<br>
+<mat-form-field  appearance="outline">
+    <mat-label>Nhập Năm phát hành</mat-label>
+    <input  matInput formControlName="year"  placeholder="Nhập năm phát hành" >
+  </mat-form-field>
+
+  <mat-form-field  appearance="outline">
+    <mat-label>Nhập Phim lẻ or bộ</mat-label>
+    <input  matInput formControlName="phim"  placeholder="Nhập Phim lẻ or bộ" >
+  </mat-form-field>
+  <br>
+      <button [disabled]="!formmovie.valid" class="but" mat-button>New Phim</button>
+      <button [disabled]="!formmovie.valid" class="but" mat-button>edit Phim</button>
+  </form>
+</div>
